@@ -1,0 +1,102 @@
+===========================================
+  Discord Wallpaper v2.0.0 by X0cadet0X
+===========================================
+
+DESCRIPTION
+-----------
+A BetterDiscord plugin that adds a small button (🖼) in the
+bottom-right corner of Discord. It lets you set a custom
+background image, GIF or video — with 3 save slots and a
+one-click reset to the default Discord look.
+
+
+REQUIREMENTS
+------------
+- Windows 7 / 10 / 11
+- Discord (stable) — https://discord.com
+- BetterDiscord v1.9.0+ — https://betterdiscord.app
+
+
+INSTALLATION
+------------
+1. Install BetterDiscord from https://betterdiscord.app
+   Run Discord once after installing it.
+
+2. Place all files in the same folder:
+     DiscordWallpaper.plugin.js
+     install.vbs
+     uninstall.vbs
+
+3. Double-click install.vbs
+   A success message will appear — no black windows.
+
+4. Open Discord:
+   Settings → BetterDiscord → Plugins → enable Discord Wallpaper
+
+5. The 🖼 button will appear in the bottom-right corner.
+
+
+HOW TO USE
+----------
+• Click 🖼 to open the panel.
+• Click "Upload 1 / 2 / 3" to load a background into a slot.
+• Click a slot thumbnail to apply that background.
+• Use the Dim slider (0–100%) to adjust overlay darkness.
+• Click "Reset to default" to remove the background.
+• Click EN/RU in the top-right of the panel to switch language.
+
+Supported formats:
+  Images : PNG, JPG, WEBP (auto-resized to 1920px max)
+  GIF    : animated backgrounds (up to 20 MB)
+  Video  : MP4, WebM — autoplay, looped, muted (up to 20 MB)
+  Tip    : for video, use short 5–15 sec looping clips.
+
+
+UNINSTALL
+---------
+Double-click uninstall.vbs — the plugin and its saved data
+will be removed. Discord returns to its default look after restart.
+
+Or manually:
+  Delete DiscordWallpaper.plugin.js from:
+  %APPDATA%\BetterDiscord\plugins\
+
+
+TROUBLESHOOTING
+---------------
+Plugin not loading?
+  → Make sure the file is named exactly: DiscordWallpaper.plugin.js
+  → Disable and re-enable the plugin in BetterDiscord settings.
+
+Background not showing?
+  → Try toggling the plugin off and on.
+  → Check that the file size is under 20 MB.
+
+Panel button missing?
+  → Restart Discord fully (right-click tray icon → Quit Discord).
+
+BetterDiscord got wiped after a Discord update?
+  → Reinstall BetterDiscord — your plugin and slots are saved.
+
+install.vbs shows "BetterDiscord not found"?
+  → Install BetterDiscord first, launch Discord once, then retry.
+
+
+NOTES
+-----
+• Modifying the Discord client is technically against Discord's
+  Terms of Service. Visual-only plugins like this one have an
+  extremely low ban risk, but you use it at your own risk.
+• Images are stored as base64 inside BetterDiscord's data folder.
+  Videos and GIFs are also stored there — keep files under 20 MB.
+• No data is sent over the internet. Everything stays local.
+
+
+LICENSE
+-------
+MIT License — free to use, modify and share.
+Credit to X0cadet0X is appreciated but not required.
+
+GitHub: https://github.com/X0cadet0X/DiscordWallpaper
+
+===========================================

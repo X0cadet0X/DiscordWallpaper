@@ -1,2 +1,108 @@
-# DiscordWallpaper
-BetterDiscord plugin — custom background with 3 slots, GIF and video support || Плагин BetterDiscord — настраиваемый фон с 3 слотами, поддержкой GIF и видео
+# Discord Wallpaper 🖼
+
+> A lightweight BetterDiscord plugin to set a custom background — image, GIF or video — directly inside Discord.
+
+![Version](https://img.shields.io/badge/version-2.0.0-blue)
+![BetterDiscord](https://img.shields.io/badge/BetterDiscord-compatible-green)
+![License](https://img.shields.io/badge/license-MIT-orange)
+![Author](https://img.shields.io/badge/author-X0cadet0X-purple)
+
+---
+
+## ✨ Features
+
+- 🖼 **3 background slots** — save up to 3 wallpapers and switch between them instantly
+- 🎞 **GIF support** — animated backgrounds with full animation preserved
+- 🎬 **Video support** — MP4 and WebM, autoplay, looped, muted (up to 20 MB)
+- 🌗 **Dim slider** — adjust overlay darkness from 0% to 100%
+- 🌐 **EN / RU language toggle** — switch interface language in one click
+- 🔄 **One-click reset** — return to Discord's default look instantly
+- 💾 **Persistent slots** — your backgrounds are saved across Discord restarts
+- 📦 **No dependencies** — pure JavaScript, no installs beyond BetterDiscord
+
+---
+
+## 📋 Requirements
+
+- [Discord](https://discord.com) (stable)
+- [BetterDiscord](https://betterdiscord.app) v1.9.0+
+- Windows 7 / 10 / 11
+
+---
+
+## 🚀 Installation
+
+### Easy (Windows, double-click)
+1. Install [BetterDiscord](https://betterdiscord.app) and launch Discord once.
+2. Download the latest release and extract all files to one folder.
+3. Double-click **install.vbs** — a success message will appear.
+4. In Discord: **Settings → BetterDiscord → Plugins → enable Discord Wallpaper**.
+
+### Manual
+1. Copy `DiscordWallpaper.plugin.js` to:
+```
+%APPDATA%\BetterDiscord\plugins\
+```
+2. In Discord: **Settings → BetterDiscord → Plugins → enable Discord Wallpaper**.
+
+---
+
+## 🎮 How to Use
+
+1. Click the **🖼 button** in the bottom-right corner of Discord.
+2. Click **Upload 1 / 2 / 3** to load a background into a slot.
+3. Click a **slot thumbnail** to apply that background.
+4. Adjust the **Dim slider** to control overlay transparency.
+5. Click **Reset to default** to remove the background.
+6. Click **EN / RU** to switch the panel language.
+
+### Supported formats
+| Type   | Formats           | Notes                          |
+|--------|-------------------|--------------------------------|
+| Image  | PNG, JPG, WEBP    | Auto-resized to 1920px max     |
+| GIF    | GIF               | Full animation, up to 20 MB    |
+| Video  | MP4, WebM         | Autoplay, looped, muted, ≤20MB |
+
+> 💡 **Tip:** For video backgrounds, use short 5–15 second looping clips for best performance.
+
+---
+
+## 🗑️ Uninstall
+
+**Easy:** Double-click **uninstall.vbs** — removes plugin and saved data.
+
+**Manual:** Delete `DiscordWallpaper.plugin.js` from `%APPDATA%\BetterDiscord\plugins\`
+
+---
+
+## 🔧 Troubleshooting
+
+| Problem | Solution |
+|--------|----------|
+| Plugin not loading | Make sure filename is exactly `DiscordWallpaper.plugin.js` |
+| Background not showing | Toggle plugin off and on, check file is under 20 MB |
+| Button missing | Fully restart Discord (tray icon → Quit Discord) |
+| BetterDiscord wiped after update | Reinstall BetterDiscord — your slots are saved |
+| install.vbs: "BetterDiscord not found" | Install BetterDiscord first, launch Discord once, retry |
+
+---
+
+## ⚠️ Disclaimer
+
+Modifying the Discord client is technically against Discord's Terms of Service.
+Visual-only plugins like this one carry an extremely low ban risk, but **you use it at your own risk.**
+
+No data is sent over the internet. Everything is stored locally on your machine.
+
+---
+
+## 📄 License
+
+MIT License — free to use, modify and distribute.
+Credit to **X0cadet0X** is appreciated but not required.
+
+---
+
+<div align="center">
+Made with ❤️ by <a href="https://github.com/X0cadet0X">X0cadet0X</a>
+</div>
